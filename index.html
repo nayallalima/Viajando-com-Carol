@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+    <title>Viajando com Carol</title>
+</head>
+
+<body>
+
+    <header>
+       
+        <nav id="nav-nav" class="navbar navbar-expand-lg navbar-light background">
+            <img class="img-logo" src="assets/Logo transparent.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#">Dicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#">Roteiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#" data-toggle="modal"
+                            data-target="#modalContato">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fonte-texto" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Destinos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Buenos Aires</a></li>
+                            <li><a class="dropdown-item" href="#">Barcelona</a></li>
+                            <li><a class="dropdown-item" href="#">Nova York</a></li>
+                            <li><a class="dropdown-item" href="#">São Francisco</a></li>
+                            <li><a class="dropdown-item" href="#">Los Angeles</a></li>
+                            <li><a class="dropdown-item" href="#">Orlando</a></li>
+                            <li><a class="dropdown-item" href="#">Miami</a></li>
+                            <li><a class="dropdown-item" href="#">Paris</a></li>
+                            <li><a class="dropdown-item" href="#">Madri </a></li>
+                            <li><a class="dropdown-item" href="#">Marrocos </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-interval="6000"
+                data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 imagem-carrossel" src="assets/Slide 1.JPG" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Yosemite National Park</h5>
+                            <p>Localizado nas montanhas da Serra Nevada, na Califórnia, EUA.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-flex w-100 imagem-carrossel" src="assets/Slide 2.JPG" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Paris</h5>
+                            <p>A cidade luz e todos os seus encantos</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="assets/Slide 3.JPG" alt="Terceiro Slide">
+                        <div class="carousel-captiogitn d-none d-md-block">
+                            <h5>Cesarea em Israel</h5>
+                            <p>Terra Santa e seus encantos</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            <article>
+                <h1 class="text-center fonte-texto pt-5"> Especial Disney!</h1>
+                <p class="text-center text-secundary fonte-texto">Veja tudo sobre a terra da magia em três destinos
+                    diferentes
+                </p>
+                <p class="text-center text-secundary fonte-texto pb-5">Orlando, Califórnia ou Paris... Disney uma paixão
+                    em
+                    vários destinos!</p>
+            </article>
+        </section>
+    </main>
+    
+    <section>
+        <div class="container-fluid bg-dark">
+            <div class=" row justify-content-around">
+
+                <div class="card borda-card m-3" style="width: 18rem">
+                    <img class="card-img-top imagem-card" src="assets/disney.Orlando.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fonte-titulo-card text-center">Disney Orlando</h5>
+                        <p class="card-text fonte-texto-card-footer text-center">Explore terras de encanto sem fim, onde
+                            sua
+                            fantasia se torna realidade.
+                        </p>
+                        <a href="#" class="btn btn-danger fonte-texto-card-footer text-uppercase">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card borda-card m-3" style="width: 18rem">
+                    <img class="card-img-top imagem-card" src="assets/Disney_Orlando.jpg" alt="Imagem de capa do card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fonte-titulo-card text-center">Disney Orlando</h5>
+                        <p class="card-text fonte-texto-card-footer text-center">Seja um dos primeiros Visitantes a
+                            aproveitar
+                            atrações selecionadas, além de um bufê livre de café da manhã.
+                        </p>
+                        <a href="#" class="btn btn-danger fonte-texto-card-footer text-uppercase">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card borda-card m-3" style="width: 18rem">
+                    <img class="card-img-top imagem-card" src="assets/Disney_Califa.jpg" alt="Imagem de capa do card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fonte-titulo-card text-center">Disney Califórnia</h5>
+                        <p class="card-text fonte-texto-card-footer text-center"> complexo da Disney Califórnia tem dois
+                            parques
+                            temáticos, três hotéis, um centro de convenções e a animada Downtown Disney, um centro de
+                            entretenimento com lojas, bares e restaurantes.
+                        </p>
+                        <a href="#" class="btn btn-danger fonte-texto-card-footer text-uppercase">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card borda-card m-3" style="width: 18rem">
+                    <img class="card-img-top imagem-card" src="assets/disney-california-adventure.jpg"
+                        alt="Imagem de capa do card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fonte-titulo-card text-center">Disney Califórnia</h5>
+                        <p class="card-text fonte-texto-card-footer text-center ">A Disneyland California é o parque da
+                            Disney
+                            original, o primeiro e o único que teve a mão do próprio Walt Disney em toda sua construção.
+                            O único parque que ele realmente conheceu e acompanhou, e esse simples fato faz a Disneyland
+                            ter um clima nostálgico e super mágico até hoje.
+                        </p>
+                        <a href="#" class="btn btn-danger fonte-texto-card-footer text-uppercase">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card borda-card m-3" style="width: 18rem">
+                    <img class="card-img-top imagem-card" src="assets/Disney_Paris.jpg" alt="Imagem de capa do card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fonte-titulo-card text-center">Disney Paris</h5>
+                        <p class="card-text fonte-texto-card-footer text-center">A Disneyland Paris é o complexo onde
+                            estão os
+                            parques temáticos, hotéis e restaurantes da Disney. Inclui os parques Disneyland e Walt
+                            Disney Studios.
+                        </p>
+                        <a href="#" class="btn btn-danger fonte-texto-card-footer text-uppercase">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card borda-card m-3" style="width: 18rem">
+                    <img class="card-img-top imagem-card" src="assets/Disney-PariS.jpg" alt="Imagem de capa do card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fonte-titulo-card text-center">Disney Paris</h5>
+                        <p class="card-text fonte-texto-card-footer text-center">O complexo foi inaugurado em 12 de
+                            abril de 1992
+                            sob o nome de EuroDisney, mas em 1995 passou a se chamar Disneyland Paris devido a mudanças
+                            estratégicas, já que a marca estava deteriorada após registrar perdas nos primeiros anos.
+                        </p>
+                        <a href="#" class="btn btn-danger fonte-texto-card-footer text-uppercase">Ver mais</a>
+                    </div>
+                </div>
+                <div class="card borda-card m-3" style="width: 18rem">
+                    <img class="card-img-top imagem-card" src="assets/Epcot.jpg" alt="Imagem de capa do card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fonte-titulo-card text-center">Epcot</h5>
+                        <p class="card-text fonte-texto-card-footer text-center">Apesar de ser tido por muitos como um
+                            parque para adultos, eu acho que todo mundo aproveita o Epcot de um jeito diferente,
+                            incluindo as crianças. Lá você encontra a tecnologia do Future World, além da experiência do
+                            World Showcase, onde você pode “visitar” a cultura de 11 países sem ter que pegar vôo entre
+                            eles.
+                        </p>
+                        <a href="#" class="btn btn-danger fonte-texto-card-footer text-uppercase">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione o tipo de
+                                comentário</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Dúvidas</option>
+                                <option>Sugestōes</option>
+                                <option>Elogios</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Escreva aqui seu
+                                comentário</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer class="container-fluid pt-5">
+        <div>
+            <p class="text-center fonte-texto-card-footer">Redes sociais</p>
+        </div>
+        <div class="row justify-content-center m-1" id="footer-redes">
+            <div class="m-5 fab fa-facebook-square"></div>
+            <div class="m-5 fab fa-twitter"></div>
+            <div class="m-5 fab fa-instagram"></div>
+        </div>
+        <div class="text-center fonte-texto-footer pt-1">
+            <p>© Copyright Copyright.com.br - All Rights Reserved - Legal</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

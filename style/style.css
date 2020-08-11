@@ -1,0 +1,47 @@
+.background {
+   background-color:white; 
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+.img-logo{
+    width: 100px;
+}
+.btn{
+   text-align: center;
+}
+.fonte-texto {
+    font-family: 'McLaren', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:darkred;
+}
+
+.fonte-titulo-card {
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.fonte-texto-card-footer {
+    font-family: 'McLaren', cursive;
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: darkblue;
+}
+
+#footer-redes {
+    font-size: 2em;
+}
+#footer-redes .m-5:hover {
+    transform: translateY(-1rem);
+    transition: all 0.5s;
+}
